@@ -1,0 +1,170 @@
+header{
+    width: 100%;
+    height: 3.5rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff  ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.25rem;
+}
+
+header .logo span{
+    font-weight: 700;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header .nav-list{
+    display: flex;
+}
+
+header .nav-list a{
+    letter-spacing: 0.25rem;
+    padding: 0.5rem 1rem; 
+    font-weight: 500;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+
+}
+
+#banner h1{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+#banner h1 span{
+    background-color: rgba(0, 0, 0, 0.75);
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}
+
+#projects .project-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4);
+}
+
+#projects .project{
+    position: relative;
+}
+
+#projects .project img{
+    width: 100%;
+}
+
+#projects .project span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+#about .desc{
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+#about .card-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4);
+}
+
+#about .card img{
+    width: 100%;
+}
+
+#about .card h3{
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+#about .card h4{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+#about .card p{
+    margin: 1rem 0;
+}
+#about .card .contact-btn{
+    width: 100%;
+}
+
+#contact p{
+    margin: 1rem 0;
+}
+
+#contact input{
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#contact button{
+    margin-top: 2rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#contact button:hover{
+    background-color: #cccccc;
+    color: #000;
+}
+
+#map img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
